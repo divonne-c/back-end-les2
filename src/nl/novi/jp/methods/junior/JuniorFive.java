@@ -1,5 +1,7 @@
 package nl.novi.jp.methods.junior;
 
+import java.util.Locale;
+
 /**
  * Deze klasse is helemaal leeg, je mag nu dus alles zelf doen.
  * Maak een methode die een String ontvangt en deze in HOOFDLETTERS uitprint.
@@ -10,4 +12,12 @@ package nl.novi.jp.methods.junior;
  */
 
 public class JuniorFive {
+
+    public static void main(String[] args) {
+        printToUppercase("hello, world!");
+    }
+
+    public static void printToUppercase(String text) {
+        System.out.println(text.toUpperCase());
+    }
 }

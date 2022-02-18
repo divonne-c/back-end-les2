@@ -12,7 +12,7 @@ public class JuniorTwo {
 
     public static void main(String[] args) {
         doubleIt(33);
-        squareTheNumber();
+        squareTheNumber(4);
     }
 
     public static void doubleIt(int number) {
@@ -20,7 +20,8 @@ public class JuniorTwo {
         System.out.println("Het getal " + number + " is verdubbeld: " + doubledNumber);
     }
 
-    public static void squareTheNumber() {
-
+    public static void squareTheNumber(int number) {
+        int quadratureNumber = number * number;
+        System.out.println("Het getal " + number + " is gekwadrateerd: " + quadratureNumber);
     }
 }
