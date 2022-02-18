@@ -22,6 +22,10 @@ public class MediorOne {
         int doubledResult = doubleNumber(result);
 
         System.out.println(result + " verdubbeld is: " + doubledResult);
+
+        int quadratureResult = quadratureNumber(result);
+
+        System.out.println(result + " gekwadrateerd is: " + quadratureResult);
     }
 
     public static int calculateSum(int firstNumber, int secondNumber) {
@@ -32,5 +36,8 @@ public class MediorOne {
         return number * 2;
     }
 
+    public static int quadratureNumber(int number) {
+        return number * number;
+    }
 
 }
